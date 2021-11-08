@@ -1,0 +1,26 @@
+* Mein
+Mein is a wrapper around gpg that is capable of encrypting/decrypting file/folder with compression .
+** Installation
+Mein Provides by default a build for *Linux* *Unix/Based* without requiring to install any dependencies.
+#+begin_src shell
+# Curl
+sudo wget https://github.com/m1ndo/mein/releases/latest/download/mein -o /usr/local/bin/mein
+sudo chmod a+rx /usr/local/bin/mein
+# Wget
+sudo wget https://github.com/m1ndo/mein/releases/latest/download/mein -O /usr/local/bin/mein
+sudo chmod a+rx /usr/local/bin/mein
+# Aria2
+sudo aria2c https://github.com/m1ndo/mein/releases/latest/download/mein -o /usr/local/bin/mein
+sudo chmod a+rx /usr/local/bin/mein
+#+end_src
+Other platform as *Windows* have yet received builds for them.
+** TODO
+- [ ] Provide Builds For Windows
+- [ ] Create a QT Front-End
+- [ ] Colorize Output/Verbose.
+** Contribute
+Feel Free To Fill up a bug report, contributing is always helpful
+** License
+Written By Ybenel [[https://github.com/m1ndo][(m1ndo)]]
+The project is licensed under GNU General Public License v2 or
+later. You can read it online at ([[http://www.gnu.org/licenses/gpl-2.0.html][v2]] or [[http://www.gnu.org/licenses/gpl.html][v3]]).
